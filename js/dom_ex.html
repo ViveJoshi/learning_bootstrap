@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading"> Hi kishor how are you ?</h1>
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText(){
+            document.getElementById("heading").innerHTML=" Yea i am fine vivek .......";
+        }
+    </script>
+    <p id="para"> This is paragraph Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi voluptatibus dolore voluptates? Tenetur veritatis possimus ipsum labore nam, placeat incidunt soluta odit eius pariatur. Magni facere illum neque similique? Iusto?</p>
+    <button onclick="markRed()"> Hit me</button>
+    <script>
+        function markRed(){
+            document.getElementById("para").style.color="red";
+            document.getElementById("para").style.fontSize= "30px";
+            document.getElementById("para").style.backgroundColor="yellow";
+        }
+    </script>
+
+    
+</body>
+</html>
